@@ -1,6 +1,6 @@
 <div>
     <div>
-        <h2>New post from {!! $name !!}</h2>
+        <h2>Mr/Mdm {!! $name !!} lecturer has uploaded the following:</h2>
     </div>
     <br>
     <div>
