@@ -105,7 +105,7 @@ class CoursesController extends Controller
 
         Auth::user()->posts()->save($post);
 
-        $this->send_message_to_students($course_id, $post->id);
+        // $this->send_message_to_students($course_id, $post->id);
 
         return redirect(route('lecturer.courses.edit', $course_id));
     }
